@@ -16,6 +16,9 @@
 		48CD1DC42373EF4600963823 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD1DC32373EF4600963823 /* main.m */; };
 		48CD1DCE2373EF4600963823 /* HelloATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD1DCD2373EF4600963823 /* HelloATests.m */; };
 		48CD1DD92373EF4600963823 /* HelloAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD1DD82373EF4600963823 /* HelloAUITests.m */; };
+		8FEC8BFAB5FABB7C310E13F0 /* Pods_HelloATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DDC19FDE23E0678E2FB908 /* Pods_HelloATests.framework */; };
+		D80C7175586A7BC84BB78DD0 /* Pods_HelloA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408B3A558F8911F483C1245C /* Pods_HelloA.framework */; };
+		DCB4E3D423B056B58783B177 /* Pods_HelloA_HelloAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D9ADE2F4974B43D997E0DC /* Pods_HelloA_HelloAUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CFE5556972CF255F8B5086 /* Pods-HelloATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloATests.debug.xcconfig"; path = "Target Support Files/Pods-HelloATests/Pods-HelloATests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EA1F6A9720B8296D4DE8F1E /* Pods-HelloA-HelloAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloA-HelloAUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloA-HelloAUITests/Pods-HelloA-HelloAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		408B3A558F8911F483C1245C /* Pods_HelloA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CD1DAE2373EF4400963823 /* HelloA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CD1DB12373EF4400963823 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48CD1DB22373EF4400963823 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		48CD1DD42373EF4600963823 /* HelloAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48CD1DD82373EF4600963823 /* HelloAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAUITests.m; sourceTree = "<group>"; };
 		48CD1DDA2373EF4600963823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB59769D20F86347A6AF811 /* Pods-HelloATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloATests.release.xcconfig"; path = "Target Support Files/Pods-HelloATests/Pods-HelloATests.release.xcconfig"; sourceTree = "<group>"; };
+		82D9ADE2F4974B43D997E0DC /* Pods_HelloA_HelloAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloA_HelloAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9E1AE55DF9D7EC21856E79 /* Pods-HelloA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloA.release.xcconfig"; path = "Target Support Files/Pods-HelloA/Pods-HelloA.release.xcconfig"; sourceTree = "<group>"; };
+		AC9A530D49930AA97D0D9EB9 /* Pods-HelloA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloA.debug.xcconfig"; path = "Target Support Files/Pods-HelloA/Pods-HelloA.debug.xcconfig"; sourceTree = "<group>"; };
+		C4571DEAAB62722B485790DC /* Pods-HelloA-HelloAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloA-HelloAUITests.release.xcconfig"; path = "Target Support Files/Pods-HelloA-HelloAUITests/Pods-HelloA-HelloAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5DDC19FDE23E0678E2FB908 /* Pods_HelloATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80C7175586A7BC84BB78DD0 /* Pods_HelloA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEC8BFAB5FABB7C310E13F0 /* Pods_HelloATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB4E3D423B056B58783B177 /* Pods_HelloA_HelloAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07BA4B960982F7897944F215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				408B3A558F8911F483C1245C /* Pods_HelloA.framework */,
+				82D9ADE2F4974B43D997E0DC /* Pods_HelloA_HelloAUITests.framework */,
+				C5DDC19FDE23E0678E2FB908 /* Pods_HelloATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48CD1DA52373EF4400963823 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,8 @@
 				48CD1DCC2373EF4600963823 /* HelloATests */,
 				48CD1DD72373EF4600963823 /* HelloAUITests */,
 				48CD1DAF2373EF4400963823 /* Products */,
+				F68C5460A81448B7C0E04012 /* Pods */,
+				07BA4B960982F7897944F215 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +164,20 @@
 			path = HelloAUITests;
 			sourceTree = "<group>";
 		};
+		F68C5460A81448B7C0E04012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A530D49930AA97D0D9EB9 /* Pods-HelloA.debug.xcconfig */,
+				9F9E1AE55DF9D7EC21856E79 /* Pods-HelloA.release.xcconfig */,
+				2EA1F6A9720B8296D4DE8F1E /* Pods-HelloA-HelloAUITests.debug.xcconfig */,
+				C4571DEAAB62722B485790DC /* Pods-HelloA-HelloAUITests.release.xcconfig */,
+				00CFE5556972CF255F8B5086 /* Pods-HelloATests.debug.xcconfig */,
+				6FB59769D20F86347A6AF811 /* Pods-HelloATests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48CD1DDD2373EF4600963823 /* Build configuration list for PBXNativeTarget "HelloA" */;
 			buildPhases = (
+				790E794EF2FA1C11EF7B1FDE /* [CP] Check Pods Manifest.lock */,
 				48CD1DAA2373EF4400963823 /* Sources */,
 				48CD1DAB2373EF4400963823 /* Frameworks */,
 				48CD1DAC2373EF4400963823 /* Resources */,
@@ -161,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48CD1DE02373EF4600963823 /* Build configuration list for PBXNativeTarget "HelloATests" */;
 			buildPhases = (
+				EB5D8D75152699FA77C8F2AA /* [CP] Check Pods Manifest.lock */,
 				48CD1DC52373EF4600963823 /* Sources */,
 				48CD1DC62373EF4600963823 /* Frameworks */,
 				48CD1DC72373EF4600963823 /* Resources */,
@@ -179,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48CD1DE32373EF4600963823 /* Build configuration list for PBXNativeTarget "HelloAUITests" */;
 			buildPhases = (
+				2577F80C8F0DACA60083277F /* [CP] Check Pods Manifest.lock */,
 				48CD1DD02373EF4600963823 /* Sources */,
 				48CD1DD12373EF4600963823 /* Frameworks */,
 				48CD1DD22373EF4600963823 /* Resources */,
@@ -261,6 +305,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2577F80C8F0DACA60083277F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloA-HelloAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790E794EF2FA1C11EF7B1FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5D8D75152699FA77C8F2AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48CD1DAA2373EF4400963823 /* Sources */ = {
@@ -437,6 +550,7 @@
 		};
 		48CD1DDE2373EF4600963823 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9A530D49930AA97D0D9EB9 /* Pods-HelloA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +568,7 @@
 		};
 		48CD1DDF2373EF4600963823 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9E1AE55DF9D7EC21856E79 /* Pods-HelloA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +586,7 @@
 		};
 		48CD1DE12373EF4600963823 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00CFE5556972CF255F8B5086 /* Pods-HelloATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +607,7 @@
 		};
 		48CD1DE22373EF4600963823 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB59769D20F86347A6AF811 /* Pods-HelloATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +628,7 @@
 		};
 		48CD1DE42373EF4600963823 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA1F6A9720B8296D4DE8F1E /* Pods-HelloA-HelloAUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J355KA6BNU;
@@ -529,6 +647,7 @@
 		};
 		48CD1DE52373EF4600963823 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4571DEAAB62722B485790DC /* Pods-HelloA-HelloAUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J355KA6BNU;
